@@ -23,6 +23,17 @@ namespace CullenBond
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
+            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
+                        "~/Scripts/bootstrap.min.*",
+                        "~/Scripts/bootstrap.js"));
+
+            bundles.Add(new StyleBundle("~/Content/bootstrap").Include(
+                    "~/Content/bootstrap/bootstrap.css"));
+
+            bundles.Add(new StyleBundle("~/Content/bootstrap-responsive").Include(
+                    "~/Content/bootstrap/bootstrap-theme*",
+                    "~/Comtent/bootstrap/bootrstrap.min.css"));
+
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css"));
 
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
