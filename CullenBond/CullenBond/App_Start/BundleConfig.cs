@@ -28,8 +28,10 @@ namespace CullenBond
                         "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/bootstrap").Include(
+                    "~/Content/bootstrap/bootstrap.css"));
+
+            bundles.Add(new StyleBundle("~/Content/bootstrap-responsive").Include(
                     "~/Content/bootstrap/bootstrap-theme*",
-                    "~/Content/bootstrap/bootstrap.css",
                     "~/Comtent/bootstrap/bootrstrap.min.css"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css"));
