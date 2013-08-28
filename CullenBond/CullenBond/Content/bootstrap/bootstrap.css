@@ -46,6 +46,10 @@ html {
       -ms-text-size-adjust: 100%;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
   margin: 0;
 }
@@ -743,6 +747,21 @@ pre code {
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
+}
+
+/* Custom container */
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+  min-height:100%;
+  background-color:#110022;
+  color:#eee;
+  overflow:hidden;
+}
+
+.container-full a {
+  color:#efefef;
+  text-decoration:none;
 }
 
 .container {
