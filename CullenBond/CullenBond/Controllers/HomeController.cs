@@ -10,7 +10,7 @@ namespace CullenBond.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "You can change this code in the controller.";
+            ViewBag.Message = "So take off your shoes.";
 
             return View();
         }
