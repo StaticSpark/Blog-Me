@@ -10,21 +10,21 @@ namespace CullenBond.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "So take off your shoes.";
+            ViewBag.Message = "My name is Cullen";
 
             return View();
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your app description page.";
+            ViewBag.Message = "A few things worth mentioning.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "If you need me.";
 
             return View();
         }
