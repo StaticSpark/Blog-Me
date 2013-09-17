@@ -24,8 +24,13 @@ namespace CullenBond.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "If you need me.";
+            ViewBag.Message = "If you'd like.";
 
+            return View();
+        }
+
+        public ActionResult Gplus()
+        {
             return View();
         }
     }
