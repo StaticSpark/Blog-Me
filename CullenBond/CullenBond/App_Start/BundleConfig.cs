@@ -35,8 +35,7 @@ namespace CullenBond
 
             bundles.Add(new StyleBundle("~/Content/bootstrap-responsive").Include(
                     "~/Content/bootstrap/bootstrap.css", 
-                    "~/Content/bootstrap/bootstrap-theme*",
-                    "~/Content/bootstrap/bootstrap.*"));
+                    "~/Content/bootstrap/bootstrap-theme.css"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css"));
 
